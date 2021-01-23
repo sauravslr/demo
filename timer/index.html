@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        
+        <div class="timer">
+            <div class="controls">
+                <input id = 'duration' value="30"/>
+            <div>
+                <button id="start"><i class="fab fa-google-play"></i></button>
+                <button id="pause"><i class="fas fa-pause"></i></button> 
+            </div>
+            </div> 
+            <svg class="dial">
+                <circle r="190" cx="0" cy="200" fill="transparent" stroke="green" stroke-width="15"
+                    transform="rotate(-90,100,100)"></circle>
+            </svg>
+        </div>    
+        <script src="./timer.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
+
+
+
